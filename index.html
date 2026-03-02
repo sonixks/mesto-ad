@@ -39,14 +39,15 @@
       <footer class="footer page__section">
         <p class="footer__copyright">© 2025 Mesto Russia</p>
       </footer>
-      
+
       <div class="popup popup_type_edit">
         <div class="popup__content">
           <button type="button" class="popup__close"></button>
           <h3 class="popup__title">Редактировать профиль</h3>
           <form class="popup__form" name="edit-profile" novalidate>
             <label class="popup__label">
-              <input type="text" name="user-name" id="user-name" class="popup__input popup__input_type_name" placeholder="Имя" required minlength="2" maxlength="40" pattern="[A-Za-zА-Яа-яЁё\s\-]+" data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"/>
+              <input type="text" name="user-name" id="user-name" class="popup__input popup__input_type_name" placeholder="Имя" required minlength="2" maxlength="40" pattern="[A-Za-zА-Яа-яЁё\s\-]+" 
+                  data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"/>
               <span class="popup__error" id="user-name-error"></span>
             </label>
             <label class="popup__label">
