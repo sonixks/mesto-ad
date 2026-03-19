@@ -49,7 +49,7 @@ export const setUserAvatar = ({ avatar }) => {
 // Добавление новой карточки
 export const addNewCard = ({ name, link }) => {
   return fetch(`${config.baseUrl}/cards`, {
-    method: "PATCH",
+    method: "POST",
     headers: config.headers,
     body: JSON.stringify({
       name,
